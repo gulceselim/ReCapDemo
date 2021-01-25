@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "YoutubeProject.ReCapDemo.DataAccess/1.0.0": {
+        "dependencies": {
+          "YoutubeProject.ReCapDemo.Entities": "1.0.0"
+        },
+        "runtime": {
+          "YoutubeProject.ReCapDemo.DataAccess.dll": {}
+        }
+      },
+      "YoutubeProject.ReCapDemo.Entities/1.0.0": {
+        "runtime": {
+          "YoutubeProject.ReCapDemo.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YoutubeProject.ReCapDemo.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "YoutubeProject.ReCapDemo.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

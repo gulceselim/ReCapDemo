@@ -1,0 +1,9 @@
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\bin\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.deps.json
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\bin\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.dll
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\bin\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.pdb
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\obj\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.csprojAssemblyReference.cache
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\obj\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.AssemblyInfoInputs.cache
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\obj\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.AssemblyInfo.cs
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\obj\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.csproj.CoreCompileInputs.cache
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\obj\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.dll
+D:\Projeler\Yazılım\Csharp Project\Project\engin-demirog-project\course-materials\ReCapDemo\YoutubeProject.ReCapDemo.Entities\obj\Debug\netcoreapp3.1\YoutubeProject.ReCapDemo.Entities.pdb

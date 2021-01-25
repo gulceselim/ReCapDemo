@@ -1,0 +1,130 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "YoutubeProject.ReCapDemo.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "YoutubeProject.ReCapDemo.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/YoutubeProject.ReCapDemo.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YoutubeProject.ReCapDemo.Business.dll": {}
+        }
+      },
+      "YoutubeProject.ReCapDemo.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "YoutubeProject.ReCapDemo.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/YoutubeProject.ReCapDemo.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YoutubeProject.ReCapDemo.DataAccess.dll": {}
+        }
+      },
+      "YoutubeProject.ReCapDemo.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/YoutubeProject.ReCapDemo.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/YoutubeProject.ReCapDemo.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YoutubeProject.ReCapDemo.Business/1.0.0": {
+      "type": "project",
+      "path": "../YoutubeProject.ReCapDemo.Business/YoutubeProject.ReCapDemo.Business.csproj",
+      "msbuildProject": "../YoutubeProject.ReCapDemo.Business/YoutubeProject.ReCapDemo.Business.csproj"
+    },
+    "YoutubeProject.ReCapDemo.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../YoutubeProject.ReCapDemo.DataAccess/YoutubeProject.ReCapDemo.DataAccess.csproj",
+      "msbuildProject": "../YoutubeProject.ReCapDemo.DataAccess/YoutubeProject.ReCapDemo.DataAccess.csproj"
+    },
+    "YoutubeProject.ReCapDemo.Entities/1.0.0": {
+      "type": "project",
+      "path": "../YoutubeProject.ReCapDemo.Entities/YoutubeProject.ReCapDemo.Entities.csproj",
+      "msbuildProject": "../YoutubeProject.ReCapDemo.Entities/YoutubeProject.ReCapDemo.Entities.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "YoutubeProject.ReCapDemo.Business >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Selim\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\YoutubeProject.ReCapDemo.Console.csproj",
+      "projectName": "YoutubeProject.ReCapDemo.Console",
+      "projectPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\YoutubeProject.ReCapDemo.Console.csproj",
+      "packagesPath": "C:\\Users\\Selim\\.nuget\\packages\\",
+      "outputPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Selim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Business\\YoutubeProject.ReCapDemo.Business.csproj": {
+              "projectPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Business\\YoutubeProject.ReCapDemo.Business.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
