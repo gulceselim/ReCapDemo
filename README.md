@@ -42,7 +42,7 @@ Bir oyun yazmak istiyorsunuz. Bu yazılım için backend kodlarını C# ile geli
 2. [IPlatformService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Abstract/IPlatformService.cs)
 3. [ISalesService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Abstract/ISalesService.cs)
 4. [IPlayerService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Abstract/IPlayerService.cs)
-5. [IPersonCheckManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/ValidationRules/Abstract/IPersonCheckService.cs)
+5. [IPersonCheckService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/ValidationRules/Abstract/IPersonCheckService.cs)
 
   ####
 ### DataAccess Katmanı
