@@ -14,18 +14,18 @@ Bir oyun yazmak istiyorsunuz. Bu yazılım için backend kodlarını C# ile geli
 
 
 ## N - Katmanlı Mimari
-Her katmanda; soyut classları tutuğum bir **Abstract** klasörü ve somut classları tuttuğum **Concrete** klasörü bulunmaktadır. Araştırmalarımdan yola çıkarak bu katmanlarımın her birini class library ile oluşturdum ve DataAccess katmanımı Entities katmanı ile, Business katmanımı DataAccess katmanı ile, UI Katmanımı Business katmanı ile ilişkilendirdim. Bunları niye yaptığım aşağıda daha ayrıntılı bir şekilde anlatmaya çalıştım. 
+- Her katmanda; soyut classları tutuğum bir **Abstract** klasörü ve somut classları tuttuğum **Concrete** klasörü bulunmaktadır. Araştırmalarımdan yola çıkarak bu katmanlarımın her birini class library ile oluşturdum ve DataAccess katmanımı Entities katmanı ile, Business katmanımı DataAccess katmanı ile, UI Katmanımı Business katmanı ile ilişkilendirdim. Bunları niye yaptığım aşağıda daha ayrıntılı bir şekilde anlatmaya çalıştım. 
 
 
 ### Entities Katmanı
-  - Bu katmanda proje boyunca kullanacağımız ana classlarımızı belirliyoruz yani gerçek nesnelerimizi belirlediğimiz yer burası. Bunun dışında IEntity interface'i oluşturdum. Bu interface bütün gerçek nesnelerimin referansını tutuyor.
+- Bu katmanda proje boyunca kullanacağımız ana classlarımızı belirliyoruz yani gerçek nesnelerimizi belirlediğimiz yer burası. Bunun dışında IEntity interface'i oluşturdum. Bu interface bütün gerçek nesnelerimin referansını tutuyor.
 #### Gerçek Sınıflarım
 1. [Player.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Concrete/Player.cs)
 2. [Person.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Concrete/Person.cs)
 3. [Game.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Concrete/Game.cs)
 
 #### Soyut Sınıflarım
-  - [IEntity.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Abstract/IEntity.cs)
+1. [IEntity.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Abstract/IEntity.cs)
     
 ### Business Katmanı
   - Bu katmanda iş yüklerimizi yazıyoruz. Öncelikle şunu söylemeliyim bu katman Data Access tarafından projeye çekilmiş olan verileri alarak işleyecek olan katmandır. Biz uygulamalarımızda Data Access katmanını direk olarak kullanmayız. Araya Business katmanını koyarak bizim yerimize Business’ın yapmasını sağlarız. Kullanıcıdan gelen veriler öncelikle Business katmanına gider oradan işlenerek Data Access katmanına aktarılır. Yukarıda neden business katmanını DataAccess katmanı ile ilişkilendirdiğimi daha iyi anlamışınızdır.
