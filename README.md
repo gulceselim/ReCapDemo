@@ -19,25 +19,25 @@ Bir oyun yazmak istiyorsunuz. Bu yazılım için backend kodlarını C# ile geli
 
 ### Entities Katmanı
 - Bu katmanda proje boyunca kullanacağımız ana classlarımızı belirliyoruz yani gerçek nesnelerimizi belirlediğimiz yer burası. Bunun dışında IEntity interface'i oluşturdum. Bu interface bütün gerçek nesnelerimin referansını tutuyor.
-#### Gerçek Sınıflarım
+#### Gerçek Sınıflarım (Concrete Class)
 1. [Player.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Concrete/Player.cs)
 2. [Person.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Concrete/Person.cs)
 3. [Game.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Concrete/Game.cs)
 
-#### Soyut Sınıflarım
+#### Soyut Sınıflarım (Abstract Class)
 1. [IEntity.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Entities/Abstract/IEntity.cs)
     
 ### Business Katmanı
   - Bu katmanda iş yüklerimizi yazıyoruz. Öncelikle şunu söylemeliyim bu katman Data Access tarafından projeye çekilmiş olan verileri alarak işleyecek olan katmandır. Biz uygulamalarımızda Data Access katmanını direk olarak kullanmayız. Araya Business katmanını koyarak bizim yerimize Business’ın yapmasını sağlarız. Kullanıcıdan gelen veriler öncelikle Business katmanına gider oradan işlenerek Data Access katmanına aktarılır. Yukarıda neden business katmanını DataAccess katmanı ile ilişkilendirdiğimi daha iyi anlamışınızdır.
   
-#### Gerçek Sınıflarım
+#### Gerçek Sınıflarım (Concrete Class)
 1. [GameManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Concrete/GameManager.cs)
 2. [PlayerManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Concrete/PlayerManager.cs) - Bu classımda kişilik kontrolü yapıyorum eğer o kontrolden geçerse DataAccess katmanındaki işlemlerini gerçekleştiriyorum.
 3. [SteamPlatformManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Concrete/SteamPlatformManager.cs)
 4. [WinterSalesManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Concrete/WinterSalesManager.cs)
 5. [PersonCheckManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/ValidationRules/Concrete/PersonCheckManager.cs)
   
-#### Soyut Sınıflarım
+#### Soyut Sınıflarım (Abstract Class)
 1. [IGameService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Abstract/IGameService.cs)
 2. [IPlatformService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Abstract/IPlatformService.cs)
 3. [ISalesService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Business/Abstract/ISalesService.cs)
@@ -47,14 +47,14 @@ Bir oyun yazmak istiyorsunuz. Bu yazılım için backend kodlarını C# ile geli
   ####
 ### DataAccess Katmanı
   - Bu katmanda sadece veritabanı işlemleri yapılmaktadır. Bu katmanın görevi veriyi ekleme, silme, güncelleme ve veritabanından çekme işlemidir. Bu katmanda bu işlemlerden başka herhangi bir işlem yapılmamaktadır.
-#### Gerçek Sınıflarım
+#### Gerçek Sınıflarım (Concrete Class)
 1. [DatabaseLoggerService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Concrete/DatabaseLoggerManager.cs)
 2. [FileLoggerService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Concrete/FileLoggerManager.cs)
 
-#### Soyut Sınıflarım
+#### Soyut Sınıflarım (Abstract Class)
 1. [ILoggerService](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Abstract/ILoggerService.cs)
   
 ### UI (Sunum Katmanı)
   - Bu katman kullanıcı ile etkileşimin yapıldığı katmandır. Ben Console uygulaması yaptığım için adına Console koydum fakat bu Windows Form uygulamasıda olabilir veya bir Web projesi olabilirdi.
-#### Gerçek Sınıflarım
+#### Gerçek Sınıflarım (Concrete Class)
 1. [Program.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.Console/Program.cs)
