@@ -48,8 +48,8 @@ Bir oyun yazmak istiyorsunuz. Bu yazılım için backend kodlarını C# ile geli
 ### DataAccess Katmanı
   - Bu katmanda sadece veritabanı işlemleri yapılmaktadır. Bu katmanın görevi veriyi ekleme, silme, güncelleme ve veritabanından çekme işlemidir. Bu katmanda bu işlemlerden başka herhangi bir işlem yapılmamaktadır.
 #### Gerçek Sınıflarım (Concrete Class)
-1. [DatabaseLoggerService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Concrete/DatabaseLoggerManager.cs)
-2. [FileLoggerService.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Concrete/FileLoggerManager.cs)
+1. [DatabaseLoggerManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Concrete/DatabaseLoggerManager.cs)
+2. [FileLoggerManager.cs](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Concrete/FileLoggerManager.cs)
 
 #### Soyut Sınıflarım (Abstract Class)
 1. [ILoggerService](https://github.com/gulceselim/ReCapDemo/blob/master/YoutubeProject.ReCapDemo.DataAccess/Abstract/ILoggerService.cs)
