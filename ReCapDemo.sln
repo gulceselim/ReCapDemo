@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeProject.ReCapDemo.Bu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeProject.ReCapDemo.Entities", "YoutubeProject.ReCapDemo.Entities\YoutubeProject.ReCapDemo.Entities.csproj", "{50432D27-8B39-4B2B-BD62-8FF008D3D64C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YoutubeProject.ReCapDemo.Console", "YoutubeProject.ReCapDemo.ConsoleProject\YoutubeProject.ReCapDemo.Console.csproj", "{D120B38F-17D9-494B-A821-2B4D4C700485}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeProject.ReCapDemo.Console", "YoutubeProject.ReCapDemo.Console\YoutubeProject.ReCapDemo.Console.csproj", "{4991876D-A184-4B1A-8955-F7C579CB498F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{50432D27-8B39-4B2B-BD62-8FF008D3D64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50432D27-8B39-4B2B-BD62-8FF008D3D64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50432D27-8B39-4B2B-BD62-8FF008D3D64C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D120B38F-17D9-494B-A821-2B4D4C700485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D120B38F-17D9-494B-A821-2B4D4C700485}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D120B38F-17D9-494B-A821-2B4D4C700485}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D120B38F-17D9-494B-A821-2B4D4C700485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4991876D-A184-4B1A-8955-F7C579CB498F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4991876D-A184-4B1A-8955-F7C579CB498F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4991876D-A184-4B1A-8955-F7C579CB498F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4991876D-A184-4B1A-8955-F7C579CB498F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "YoutubeProject.ReCapDemo.ConsoleProject/1.0.0": {
+      "YoutubeProject.ReCapDemo.Console/1.0.0": {
         "dependencies": {
           "YoutubeProject.ReCapDemo.Business": "1.0.0"
         },
         "runtime": {
-          "YoutubeProject.ReCapDemo.ConsoleProject.dll": {}
+          "YoutubeProject.ReCapDemo.Console.dll": {}
         }
       },
       "YoutubeProject.ReCapDemo.Business/1.0.0": {
@@ -38,7 +38,7 @@
     }
   },
   "libraries": {
-    "YoutubeProject.ReCapDemo.ConsoleProject/1.0.0": {
+    "YoutubeProject.ReCapDemo.Console/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\YoutubeProject.ReCapDemo.ConsoleProject.csproj": {}
+    "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Console\\YoutubeProject.ReCapDemo.Console.csproj": {}
   },
   "projects": {
     "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Business\\YoutubeProject.ReCapDemo.Business.csproj": {
@@ -65,14 +65,14 @@
         }
       }
     },
-    "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\YoutubeProject.ReCapDemo.ConsoleProject.csproj": {
+    "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Console\\YoutubeProject.ReCapDemo.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\YoutubeProject.ReCapDemo.ConsoleProject.csproj",
-        "projectName": "YoutubeProject.ReCapDemo.ConsoleProject",
-        "projectPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\YoutubeProject.ReCapDemo.ConsoleProject.csproj",
+        "projectUniqueName": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Console\\YoutubeProject.ReCapDemo.Console.csproj",
+        "projectName": "YoutubeProject.ReCapDemo.Console",
+        "projectPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Console\\YoutubeProject.ReCapDemo.Console.csproj",
         "packagesPath": "C:\\Users\\Selim\\.nuget\\packages\\",
-        "outputPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.ConsoleProject\\obj\\",
+        "outputPath": "D:\\Projeler\\Yazılım\\Csharp Project\\Project\\engin-demirog-project\\course-materials\\ReCapDemo\\YoutubeProject.ReCapDemo.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
