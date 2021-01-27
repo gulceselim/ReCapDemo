@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using YoutubeProject.ReCapDemo.Entities.Abstract;
+using YoutubeProject.ReCapDemo.Entities.Concrete;
 
 namespace YoutubeProject.ReCapDemo.Business.Abstract
 {
-    public interface IPlayerService
+    public interface IPlayerService : IGenericService<Player>
     {
-        void Add(IEntity player);
-        void Delete(IEntity player);
-        void Update(IEntity player);
+        
 
     }
 }

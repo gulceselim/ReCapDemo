@@ -17,7 +17,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
             this._loggerServices = loggerServices;
         }
 
-        public void Add(IEntity game)
+        public void Add(Game game)
         {
             foreach (var logger in _loggerServices)
             {
@@ -25,7 +25,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
             }
         }
 
-        public void Delete(IEntity game)
+        public void Delete(Game game)
         {
             foreach (var logger in _loggerServices)
             {
@@ -33,7 +33,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
             }
         }       
 
-        public void Update(IEntity game)
+        public void Update(Game game)
         {
             foreach (var logger in _loggerServices)
             {

@@ -23,9 +23,9 @@ namespace ConsoleApp1
 
             IPlayerService playerManager = new PlayerManager(personCheck, loggerServices);
 
-            IEntity selim = new Player() { Name = "Selim", LastName = "Gülce", UserName = "selimg", Password = "1234567890", DateOfBirth = new DateTime(1999, 11, 20), NationalityId = "11112222333" };
-            IEntity emre = new Player() { Name = "Emre", LastName = "Gülce", UserName = "emreg", Password = "1234567890", DateOfBirth = new DateTime(1999, 11, 20), NationalityId = "11112222333" };
-            IEntity mehmet = new Player() { Name = "Mehmet", LastName = "Gülce", UserName = "mehmetg", Password = "1234567890", DateOfBirth = new DateTime(2007, 01, 6), NationalityId = "11112222333" };
+            Player selim = new Player() { Name = "Selim", LastName = "Gülce", UserName = "selimg", Password = "1234567890", DateOfBirth = new DateTime(1999, 11, 20), NationalityId = "11112222333" };
+            Player emre = new Player() { Name = "Emre", LastName = "Gülce", UserName = "emreg", Password = "1234567890", DateOfBirth = new DateTime(1999, 11, 20), NationalityId = "11112222333" };
+            Player mehmet = new Player() { Name = "Mehmet", LastName = "Gülce", UserName = "mehmetg", Password = "1234567890", DateOfBirth = new DateTime(2007, 01, 6), NationalityId = "11112222333" };
 
             playerManager.Add(selim);
             playerManager.Add(emre);
@@ -33,9 +33,9 @@ namespace ConsoleApp1
 
 
 
-            IEntity hitman2 = new Game() { Name = "Hitman 2", Price = (double)59.90 };
-            IEntity pubg = new Game() { Name = "PUBG", Price = (double)79.90 };
-            IEntity rocketLeague = new Game() { Name = "Rocket League", Price = (double)29.90 };
+            Game hitman2 = new Game() { Name = "Hitman 2", Price = (double)59.90 };
+            Game pubg = new Game() { Name = "PUBG", Price = (double)79.90 };
+            Game rocketLeague = new Game() { Name = "Rocket League", Price = (double)29.90 };
 
             IGameService gameManager = new GameManager(loggerServices);
 

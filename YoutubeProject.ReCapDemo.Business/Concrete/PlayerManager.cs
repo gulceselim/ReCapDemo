@@ -20,9 +20,9 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
             _loggerServices = loggerServices;
         }
 
-        public void Add(IEntity player)
+        public void Add(Player player)
         {
-            if (_personCheckService.CheckIfRealPerson((Person)player))
+            if (_personCheckService.CheckIfRealPerson(player))
             {
                 foreach (var logger in _loggerServices)
                 {
@@ -35,7 +35,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
             }
         }
         
-        public void Delete(IEntity player)
+        public void Delete(Player player)
         {
             foreach (var logger in _loggerServices)
             {
@@ -43,7 +43,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
             }
         }
 
-        public void Update(IEntity player)
+        public void Update(Player player)
         {
             foreach (var logger in _loggerServices)
             {

@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using YoutubeProject.ReCapDemo.Entities.Abstract;
-using YoutubeProject.ReCapDemo.Entities.Concrete;
 
 namespace YoutubeProject.ReCapDemo.Business.Abstract
 {
-    public interface IGameService : IGenericService<Game>
+    public interface IGenericService<Entity> where Entity : class, IEntity, new() 
     {
-        
-
+        void Add(Entity entity);
+        void Delete(Entity entity);
+        void Update(Entity entity);
     }
 }
