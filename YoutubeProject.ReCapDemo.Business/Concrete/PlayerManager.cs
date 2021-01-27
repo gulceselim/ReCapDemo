@@ -39,7 +39,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
         {
             foreach (var logger in _loggerServices)
             {
-                logger.Add(player);
+                logger.Delete(player);
             }
         }
 
@@ -47,7 +47,7 @@ namespace YoutubeProject.ReCapDemo.Business.Concrete
         {
             foreach (var logger in _loggerServices)
             {
-                logger.Add(player);
+                logger.Update(player);
             }
         }
 

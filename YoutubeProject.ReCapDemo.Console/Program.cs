@@ -19,7 +19,7 @@ namespace ConsoleApp1
             ILoggerService databaseLogger = new DatabaseLoggerManager();
             ILoggerService fileLogger = new FileLoggerManager();
 
-            List<ILoggerService> loggerServices = new List<ILoggerService>() { databaseLogger };
+            List<ILoggerService> loggerServices = new List<ILoggerService>() { fileLogger };
 
             IPlayerService playerManager = new PlayerManager(personCheck, loggerServices);
 
